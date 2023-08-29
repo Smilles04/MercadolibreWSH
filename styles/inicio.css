@@ -12,10 +12,18 @@
 :root{
     --color-primario: #fff159;
     --color-letras: #000000;
+    --color-ver: #1a73a7;
+    --color-blanco: #ffffff;
 }
+
+html, body{
+    margin:0;
+    background-color: #EBEBEB;
+}
+
 a {
     text-decoration: none;
-    color: var(--color-letras);
+    
 }
 
 header {
@@ -82,7 +90,7 @@ header {
     }
 
 .banner{
-    width: 1600px;
+    width: 1700px;
 }
 
 .metodos-de-pago{
@@ -101,57 +109,178 @@ header {
 
 }
 
+
+.Relacionados1 {
+    display: flex;
+    justify-content: space-between;
+    
+ }
+ .div-1{
+         background-color: white;
+         border-radius: 6px;
+         width: 20%;
+     }
+ .div-1 img{
+         width: 100%;
+     }
+ .div-1:hover{
+         cursor: pointer;
+         box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+     }
+ .div-2{
+         background-color: white;
+         border-radius: 6px;
+         width: 20%;
+     }
+ .div-2 img{
+         width: 100%;
+     }
+ .div-2:hover{
+         cursor: pointer;
+         box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+     }
+ .div-3{
+         background-color: white;
+         border-radius: 6px;
+         width: 20%;
+     }
+ .div-3 img{
+         width: 100%;
+     }
+ .div-3:hover{
+         cursor: pointer;
+         box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+     }
+ .div-4{
+         background-color: white;
+         border-radius: 6px;
+         width: 20%;
+     }
+ .div-4 img{
+         width: 100%;
+     }
+ .div-4:hover{
+         cursor: pointer;
+         box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+     }
+
 .articulos {
    display: flex;
    justify-content: space-between;
    
 }
-.div-1{
+.div-5{
         background-color: white;
         border-radius: 6px;
         width: 20%;
     }
-.div-1 img{
+.div-5 img{
         width: 100%;
     }
-.div-1:hover{
+.div-5:hover{
         cursor: pointer;
         box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
     }
-.div-2{
+.div-6{
         background-color: white;
         border-radius: 6px;
         width: 20%;
     }
-.div-2 img{
+.div-6 img{
         width: 100%;
     }
-.div-2:hover{
+.div-6:hover{
         cursor: pointer;
         box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
     }
-.div-3{
+.div-7{
         background-color: white;
         border-radius: 6px;
         width: 20%;
     }
-.div-3 img{
+.div-7 img{
         width: 100%;
     }
-.div-3:hover{
+.div-7:hover{
         cursor: pointer;
         box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
     }
-.div-4{
+.div-8{
         background-color: white;
         border-radius: 6px;
         width: 20%;
     }
-.div-4 img{
+.div-8 img{
         width: 100%;
     }
-.div-4:hover{
+.div-8:hover{
         cursor: pointer;
         box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
     }
 
+.suscribete{
+        
+        flex-direction: row;
+        width: 900px;
+        margin: 0 auto;
+        justify-content;
+        align-items: center;
+        
+        border-radius: 2px;
+        cursor: pointer;
+        font-size: 19px;
+        padding: 40px 8px;
+    
+    }
+
+    .div-9{
+        display: flex;
+        flex-direction: row;
+        width: 900px;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+        background: linear-gradient(#7723c59c, #160458);
+        border-radius: 6px;
+        cursor: pointer;
+        border: 5px solid #f5f5f5;
+        color: var(--color-letras);
+        font-size: 19px;
+        padding: 20px 7px;
+    }
+
+    .beneficios{
+        display: flex;
+        flex-direction: row;
+        width: 900px;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        border-radius: 6px;
+        cursor: pointer;
+        border: 1px solid #f5f5f5;
+        font-size: 19px;
+        padding: 40px 8px;
+    
+    }
+        .beneficios .logo1{
+            padding: 5px 5px;
+            width: 100%;
+        }
+
+.div-11{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-blanco);
+    border-radius: 6px;
+    cursor: pointer;
+    border: 5px solid #f5f5f5;
+    color: var(--color-letras)
+    font-size: 19px;
+    padding: 40px 7px;
+}
